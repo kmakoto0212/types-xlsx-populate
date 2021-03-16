@@ -138,7 +138,7 @@ declare namespace XlsxPopulate {
     style(name: any[][]): Range
     style(styles: {[key: string]: any}): Cell
     style(style: Style): Cell
-    value(): string | boolean | number | Date | undefined | (string | boolean | number | Date | undefined)[][]
+    value(): string | boolean | number | Date | undefined
     value(value: string | boolean | number | null | undefined): Cell
     value(): Range
     workbook(): Workbook
